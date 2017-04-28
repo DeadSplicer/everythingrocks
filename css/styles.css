@@ -4,7 +4,8 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
   margin: 0;
-  padding: 0 0 150px 0;
+  padding: 0 0 0 0;
+
 }
 
 #header {
@@ -57,18 +58,26 @@ body {
 }
 
 #toTopText {
-  font-family: 'Cormorant Garamond', serif;
+  margin-top: 150px;
   text-align: center;
+  padding: 0px 0px 0px 0px; /*top right bottom left*/
+  font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
-  line-height: .3;
   font-style: italic;
-  padding-top: 10px;
-  padding-bottom: 23px;
+  color: black;
+  border-top: inset;
+  border-width: thin;
+  border-color: gray;
+  background: lightgray;
+  display: block;
+  text-decoration: none;
+
 }
 
 #footerText {
   padding-top:150px;
-  color:lightgray;
+  color:white;
+  background: lightgray;
   font-style:italic;
   text-align:center;
 }
@@ -91,6 +100,7 @@ h1 {
   margin: 0;
   padding: 13px 0px 5px 0px; /*top right bottom left*/
 }
+
 
 .center {
   text-align: center;

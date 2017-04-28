@@ -45,6 +45,9 @@ body {
   /*background: #cb4154;*/
   font-weight: bolder;
 }
+#active:hover {
+  color: black;
+}
 
 #subMenu {
   background: black;

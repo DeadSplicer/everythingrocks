@@ -5,7 +5,6 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0 0 0 0;
-
 }
 
 #header {
@@ -119,12 +118,25 @@ h1 {
   padding: 15px;
 }
 
+.col-xs-12, .col-sm-3 {
+  padding: 0.5px;
+}
+
 .row {
 }
 
 .container {
   max-width: 1000px;
 
+}
+
+.subtext {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9),
+            2px 2px 4px rgba(0, 0, 0, 0.1),
+            2px 8px 12px rgba(0, 0, 0, 0.1);
 }
 
 

@@ -28,6 +28,11 @@ body {
             0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
+#logo {
+  float:left;
+  padding: 0 3px 2px 0;
+}
+
 #desktopMenu {
   padding-top: 0;
   padding-bottom: 0;
@@ -105,7 +110,7 @@ hr {
 h1 {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 25px;
   color: black;
   margin: 0;
   padding: 13px 0px 5px 0px; /*top right bottom left*/

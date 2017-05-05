@@ -57,7 +57,7 @@ body {
 }
 
 #active {
-  color: #cb4154;
+  color: #c03d3d;
   /*background: #cb4154;*/
   font-weight: bolder;
 }
@@ -188,7 +188,7 @@ h1 {
   /*background-color: #d60606;*/
   color: white;
   text-decoration: none;
-  background-color: #cb4154;
+  background-color: #c03d3d;
 }
 
 .button2{
@@ -209,7 +209,8 @@ h1 {
 
   text-decoration: none;
   /*color: #d60606;*/
-  color: #cb4154;
+  /*color: #cb4154;*/
+  color: #c03d3d;
 }
 .button3{
   border: none;
@@ -229,6 +230,7 @@ h1 {
   text-decoration: none;
   /*color: #d60606;*/
   color: #7f7778;
+
 }
 
 .menu_button{

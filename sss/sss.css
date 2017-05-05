@@ -39,12 +39,12 @@
 }
 
 .sssprev {
-	left: 3%;
+	left: 0%;
 	background-position: 0 50%;
 }
 
 .sssnext {
-	right: 3%;
+	right: 0%;
 	background-position: 0px 50%;
 }
 

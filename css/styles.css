@@ -7,6 +7,14 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0 0 0 0;
+  background: url("../images/misc_icons/PeaGravel_2.jpg");
+  background-size: cover;
+  /*background-image: radial-gradient(white, lightgray);*/
+  background-image-opacity: .5;
+  /*background: -webkit-linear-gradient(white, lightgray);
+  background: -o-linear-gradient(white, lightgray);
+  background: -moz-linear-gradient(white, lightgray);
+  background: linear-gradient(white, lightgray); */
 }
 
 #header {
@@ -32,6 +40,7 @@ body {
   font-size: 16px;
   font-style: italic;
   color: white;
+  background: white;
   border-bottom: inset;
   border-width: thin;
 }
@@ -59,7 +68,7 @@ body {
 }
 
 #toTopText {
-  margin-top: 150px;
+  margin-top: 25px;
   text-align: center;
   padding: 0px 0px 0px 0px; /*top right bottom left*/
   font-family: 'Cormorant Garamond', serif;
@@ -138,7 +147,9 @@ h1 {
 
 .container {
   max-width: 1000px;
-
+  background: rgba(255,255,255,.98);
+  border: 12px solid rgba(255, 255, 255,.0);
+  padding-bottom: 50px;
 }
 
 .subtext {
@@ -223,7 +234,7 @@ h1 {
 
 .mobileButton{
   /*background-color: #a5a5a5;*/
-  background-color: #7f7778;
+  background-color: rgba(200,200,200,.5);;
   border: none;
   color: black;
   border-top: 1px solid black;

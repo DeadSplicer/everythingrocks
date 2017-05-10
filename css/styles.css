@@ -7,7 +7,8 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0 0 0 0;
-  background: url("../images/misc_icons/PeaGravel_2.jpg");
+  background: url("../images/misc_icons/background.png");
+  /*background: #696969;*/
   background-size: cover;
   /*background-image: radial-gradient(white, lightgray);*/
   background-image-opacity: .5;
@@ -154,7 +155,8 @@ h1 {
 
 .container {
   max-width: 1000px;
-  background: rgba(255,255,255,.98);
+  background: rgba(255,255,255,.95);
+  background-blend-mode: difference;
   border: 12px solid rgba(255, 255, 255,.0);
   padding-bottom: 50px;
 }

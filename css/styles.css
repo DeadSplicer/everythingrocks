@@ -80,11 +80,11 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
   font-style: italic;
-  color: black;
+  color: white;
   border-top: inset;
   border-width: thin;
   border-color: gray;
-  background: lightgray;
+  background: #232323;
   display: block;
   text-decoration: none;
 

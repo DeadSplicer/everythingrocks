@@ -35,11 +35,10 @@ body {
 }
 
 #desktopMenu {
-  padding-top: 0;
-  padding-bottom: 0;
   text-align: center;
   /*font-size: 16px;*/
   padding: 0px 0px 0px 0px; /*top right bottom left*/
+  margin-bottom: 0px;
   background: none;
   line-height: .3;
   font-family: 'Cormorant Garamond', serif;
@@ -49,6 +48,7 @@ body {
   background: white;
   border-bottom: inset;
   border-width: thin;
+  box-shadow: 0px 5px 5px black;
 }
 
 #mobileMenu{
@@ -118,6 +118,11 @@ h1 {
   text-align: left;
 }
 
+img:hover {
+  outline: 1px solid black;
+  box-shadow: 1px 1px 8px #888888;
+}
+
 
 .center {
   text-align: center;
@@ -158,6 +163,7 @@ h1 {
   background: rgba(255,255,255,.95);
   background-blend-mode: difference;
   border: 12px solid rgba(255, 255, 255,.0);
+  box-shadow: 0px 10px 15px black;
   padding-bottom: 50px;
 }
 

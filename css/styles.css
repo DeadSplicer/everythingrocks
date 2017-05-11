@@ -123,6 +123,13 @@ img:hover {
   box-shadow: 1px 1px 8px #888888;
 }
 
+a {
+  color: blue;
+}
+a:hover {
+  color: #c03d3d;
+  text-decoration: none;
+}
 
 .center {
   text-align: center;

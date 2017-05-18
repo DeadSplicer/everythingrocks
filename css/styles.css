@@ -33,6 +33,10 @@ body {
   float:left;
   padding: 0 3px 2px 0;
 }
+#logo:hover {
+  outline: none;
+  box-shadow: none;
+}
 
 #desktopMenu {
   text-align: center;

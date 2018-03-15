@@ -152,6 +152,15 @@ a:hover {
   text-align: left;
 }
 
+.cloak {
+  /* background: rgba(0, 0, 0, 0.023); */
+  border: 0;
+  height: 1px;
+  max-width: 1500px;
+  width: 70%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+
 .slider img {
   position: absolute;
   left: 50%;
